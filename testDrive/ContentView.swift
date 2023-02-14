@@ -10,12 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+
+            Text("Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 Eai meu povo!! 😁 🇧🇷 ").lineLimit(3).multilineTextAlignment(.center).font(.system(size: 24, weight: .ultraLight, design: .rounded))
+            
+            //AttributedString
+            Text("Hello ".lowercased()).foregroundColor(.blue) + Text("World!".uppercased()).foregroundColor(.yellow).font(.custom("Roboto-Regular", size: 22))
+            
+            Text("Olá, Clerton!").frame(maxWidth: .infinity, alignment: .center)
+            //.leading = esquerda
+            //.trailing = direita
         }
-        .padding()
+   
     }
 }
 

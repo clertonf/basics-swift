@@ -11,6 +11,7 @@
 		BD96B8CC299AB72B0084A504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD96B8CB299AB72B0084A504 /* ContentView.swift */; };
 		BD96B8CE299AB72B0084A504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD96B8CD299AB72B0084A504 /* Assets.xcassets */; };
 		BD96B8D1299AB72B0084A504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD96B8D0299AB72B0084A504 /* Preview Assets.xcassets */; };
+		BDEFF8CE299C345E006E949A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDEFF8C2299C345E006E949A /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		BD96B8CB299AB72B0084A504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD96B8CD299AB72B0084A504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD96B8D0299AB72B0084A504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDEFF8C2299C345E006E949A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		BDEFF8D7299C35CA006E949A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		BD96B8C8299AB72B0084A504 /* testDrive */ = {
 			isa = PBXGroup;
 			children = (
+				BDEFF8D7299C35CA006E949A /* Info.plist */,
+				BDEFF8C2299C345E006E949A /* Roboto-Regular.ttf */,
 				BD96B8C9299AB72B0084A504 /* testDriveApp.swift */,
 				BD96B8CB299AB72B0084A504 /* ContentView.swift */,
 				BD96B8CD299AB72B0084A504 /* Assets.xcassets */,
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDEFF8CE299C345E006E949A /* Roboto-Regular.ttf in Resources */,
 				BD96B8D1299AB72B0084A504 /* Preview Assets.xcassets in Resources */,
 				BD96B8CE299AB72B0084A504 /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = K223W388Y8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testDrive/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = K223W388Y8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testDrive/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
